@@ -13,6 +13,7 @@ export class RedirectComponent {
       this.linksService.getLink(params.shortUrl).then((link: Link) => {
         link.longUrl = this.linksService.addhttps(link.longUrl);
         window.location.href = link.longUrl;
+        
       }).catch((error) => {
       });
     });

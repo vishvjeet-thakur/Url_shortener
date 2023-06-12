@@ -8,6 +8,7 @@ export interface LinksState {
 }
 
 const initialState: LinksState = {
+  
   links: [],
   linkAddStatus: 'LINK_ADD_STATUS_START'
 };

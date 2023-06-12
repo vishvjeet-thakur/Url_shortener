@@ -6,6 +6,7 @@ export const environment = {
     databaseURL: "https://ng-url-shortener.firebaseio.com",
     projectId: "ng-url-shortener",
     storageBucket: "ng-url-shortener.appspot.com",
+    
     messagingSenderId: "48558625602"
   }
 };

@@ -3,6 +3,7 @@ import * as fromLinks from './reducers/links.reducer';
 
 export interface State {
   links: fromLinks.LinksState;
+  
 }
 
 export const reducers: ActionReducerMap<State> = {

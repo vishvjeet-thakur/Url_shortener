@@ -14,6 +14,7 @@ import {  MatToolbarModule, MatIconModule, MatButtonModule, MatDialogModule,
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
+    
     MatSnackBarModule
   ],
   exports: [

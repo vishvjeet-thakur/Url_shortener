@@ -18,6 +18,7 @@ export class LinksService {
   }
 
   private initialiseFirebaseEvents() {
+    
     this.db.collection('links')
       .snapshotChanges()
       .pipe(map(docs => {

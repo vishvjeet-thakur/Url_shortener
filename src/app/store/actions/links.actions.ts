@@ -10,6 +10,7 @@ export class LoadLinks implements Action {
 }
 
 export class SetAddLinkStatus implements Action {
+  
   readonly type = SET_ADD_LINK_STATUS;
   constructor(public payload: LinkAddStatus) {}
 }

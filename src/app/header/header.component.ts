@@ -20,6 +20,7 @@ export class HeaderComponent implements OnInit {
   }
 
   addUrl() {
+    
     this.store.dispatch(new SetAddLinkStatus('LINK_ADD_STATUS_START'));
     const dialogRef = this.dialog.open(AddNewUrlDialogComponent, {
       width: '350px',
